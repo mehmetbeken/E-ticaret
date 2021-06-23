@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/basketImageView">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:id="@+id/basketProductNameText"
+            android:text="Ürün Fiyatı"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/basketPriceText"
+            android:text="Ürün Adı"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:id="@+id/basketCountText"
+            android:text="Adet: "
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
